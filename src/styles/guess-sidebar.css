@@ -1,0 +1,57 @@
+#guesses-container {
+  width: var(--sidebar-width);
+}
+
+#guesses-container * {
+  width: var(--sidebar-width);
+}
+
+ul {
+  list-style-type: none;
+}
+
+#guesses-list {
+  display: grid;
+  height: 85vh;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.category {
+  align-items: center;
+  display: grid;
+}
+
+.sublist-label,
+.guess-sublist {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.sublist-label:hover,
+.guess-sublist-li:hover {
+  color: white;
+}
+
+.guess-sublist {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+}
+
+.guess-sublist-li {
+  margin-bottom: 1rem;
+}
+
+.closed {
+  display: none;
+}
+
+.choice {
+  font-size: 1rem;
+}
+
+.strike {
+  text-decoration: line-through;
+}

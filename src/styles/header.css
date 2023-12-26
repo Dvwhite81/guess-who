@@ -1,0 +1,28 @@
+#header-container {
+  background-color: var(--blue-bg);
+  display: grid;
+  grid-template-columns: var(--sidebar-width) var(--board-width) var(--sidebar-width);
+  height: 15vh;
+  margin: auto;
+  width: 100vw;
+}
+
+#guesses-header,
+#right-header {
+  align-items: flex-end;
+  color: var(--light-blue-bg);
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+#logo-container {
+  margin: auto;
+}
+
+#header-img {
+  display: flex;
+  height: 10vh;
+  margin: auto;
+}

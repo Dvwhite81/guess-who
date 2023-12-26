@@ -1,0 +1,28 @@
+#right-container {
+  display: grid;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 100%;
+  width: var(--sidebar-width);
+}
+
+#computer-container,
+#player-container {
+  height: calc(var(--board-height) / 2);
+  text-align: center;
+}
+
+#computer-container {
+  display: grid;
+  font-size: 1rem;
+  font-weight: bold;
+  width: var(--sidebar-width);
+}
+
+#computer-display,
+#player-display {
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}

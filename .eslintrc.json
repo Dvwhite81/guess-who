@@ -27,12 +27,15 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "no-console": "error",
+    "no-console": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
         "devDependencies": true
       }
-    ]
+    ],
+    "import/no-cycle": "off",
+    "no-restricted-syntax": "off",
+    "no-param-reassign": "off"
   }
 }

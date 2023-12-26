@@ -2,13 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/images/favicon/favicon-192.png" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon/favicon-192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guess Who</title>
   </head>
 
   <body>
-    <div id="app"></div>
+        <div id="container">
+          <div id="header-container">
+            <div id="guesses-header">
+              Guesses
+            </div>
+            <div id="logo-container">
+              <button id="cancel-answer-btn" type="button">Cancel Answer</button>
+              <img id="header-img" src="/logo-transparent.png" alt="game logo">
+            </div>
+            <div id="right-header">
+              Computer
+            </div>
+          </div>
+          <div id="game-container">
+            <div id="guesses-container">
+              <ul id="guesses-list"></ul>
+            </div>
+            <div id="board-container">
+              <div id="board-btn-div">
+                <button id="end-guess-btn" class="board-btn" type="button">Done</button>
+                <button id="help-btn" class="board-btn" type="button">Help</button>
+                <button id="final-answer-btn" class="board-btn" type="button">Answer</button>
+              </div>
+            </div>
+            <div id="right-container">
+              <div id="computer-container"></div>
+              <div id="player-container"></div>
+            </div>
+          </div>
+          <div id="mainModal" class="modal">
+            <span class="modal-close">×</span>
+            <div class="modal-content">
+              <h2 class="modal-h2"></h2>
+              <div class="modal-div">
+                <p class="modal-p1"></p>
+                <p class="modal-p2"></p>
+              </div>
+              <button class="modal-submit" type="submit"></button>
+            </div>
+          </div>
+        </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
