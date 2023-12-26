@@ -1,23 +1,17 @@
 {
-  "name": "vite-vanilla-js-template",
-  "description": "ViteJS starter template for vanilla JavaScript with some basic dependencies.",
+  "name": "guess-who",
+  "description": "Guess Who game build with JavaScript",
   "version": "1.0.0",
   "type": "module",
   "keywords": [
     "vanilla",
     "javascript",
-    "template",
-    "boilerplate",
-    "boilerplate-template",
     "postcss",
     "eslint",
     "prettier",
     "scaffold",
-    "scaffold-template",
     "vite",
-    "vitejs",
-    "vite-template",
-    "vitejs-template"
+    "vitejs"
   ],
   "scripts": {
     "dev": "vite --host --open",
